@@ -17,7 +17,7 @@ public class FirstComponent extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("First Component");
-        Arrow arrow = new Arrow();        
+        Clock arrow = new Clock();        
         StackPane root = new StackPane();
         root.getChildren().add(arrow);
         primaryStage.setScene(new Scene(root, 300, 250));
